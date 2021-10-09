@@ -1,0 +1,105 @@
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #ecf0f3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {   
+    margin-left: 1.8em;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px #cbced1,
+                -10px -10px 15px #ffffff; 
+}
+
+.tittle{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+    
+.content {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row button {
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffff;
+}
+
+.row button:hover {
+    box-shadow:  inset 5px 5px 8px rgba(16, 16, 16, .1),
+                inset -5px -5px 8px #fff;
+    background: #fff;
+}
+
+.display #screen {
+    margin-bottom: .5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: rgb(179, 176, 176);
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #505152,
+                    inset -8px -8px 8px #a3a1a1;
+}
+
+#eval {
+    background: #33ccff;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #66d9ff,
+                inset -5px -5px 8px #00ace6;
+}
+
+#eval:hover {
+    box-shadow: inset 5px 5px 8px #00ace6,
+                inset -5px -5px 8px #00ace6;
+}
+
+#ac{
+    background: #33cc33;
+    color: #fff;
+}
+
+#ac:hover {
+    box-shadow: inset 5px 5px 8px #2eb82e,
+                inset -5px -5px 8px #33cc33;
+}
+
+#ce{
+    background: #ff3344;
+    color: #fff;
+}
+
+#ce:hover {
+      box-shadow: inset 5px 5px 8px #e60045,
+                  inset -5px -5px 8px #ff3399;
+}
